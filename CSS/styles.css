@@ -1,0 +1,240 @@
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* img reset */
+img {
+    vertical-align: middle;
+}
+
+
+/* box reset */
+*, *:before, *:after { 
+    box-sizing: border-box;
+}
+
+
+/* text style */
+body {
+    font-family: 'Bruno Ace SC', cursive;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 128px;
+    color: #00FFA3;
+    text-align: right;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.typography {
+    font-size: 64px;
+}
+
+.fs-2 {
+    font-size: 24px;
+}
+
+.fs-3 {
+    font-size: 20px;
+}
+
+.c-black {
+    color: #000000;
+}
+
+.ta-center {
+    text-align: center;
+}
+
+
+/* background */
+.bg-black {
+    background-color: black;
+}
+
+.bg-img {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+}
+
+.bg-liner {
+    background-image: url(../images/background.png);
+    background-repeat: repeat-x;
+}
+
+/* display */
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.fd-colum {
+    flex-direction: column;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.ai-end {
+    align-items: end;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+/* padding */
+.py-40 {
+    padding: 40px 0;
+}
+.py-72 {
+    padding: 72px 0;
+}
+
+.py-96 {
+    padding: 96px 0;
+}
+
+.py-160 {
+    padding: 160px 0;
+}
+
+/* margin */
+.mb-4 {
+    margin-bottom: 4px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.mb-24 {
+    margin-bottom: 24px;
+}
+.mb-32 {
+    margin-bottom: 32px;
+}
+.mb-36 {
+    margin-bottom: 36px;
+}
+
+.mr-16 {
+    margin-right: 16px;
+}
+
+/* container */
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+/* button */
+.button {
+    display: block;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    color: #000000;
+    padding: 12px 24px;
+}
+
+.b1-size {
+    width: 187px;
+}
+
+/* box size */
+.box-526 {
+    width: 526px;
+}
+.box-636 {
+    width: 636px;
+}
+.box-746 {
+    width: 746px;
+}
+
+.box-856 {
+    width: 856px;
+}
+
+/* others */
+.nav {
+    padding: 40px 0 24px 0;
+}
+
+.card {
+    width: 306px;
+    padding: 12px;
+    border: #E3E3E3 1px solid;
+}
+
+.icon:hover {
+    border-radius: 40px;
+    box-shadow: 
+    0px 0px 16px 3px rgba(144, 148, 255, 0.9),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
